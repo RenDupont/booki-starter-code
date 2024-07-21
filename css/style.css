@@ -18,6 +18,13 @@ body {
     justify-content: center;
 }
 
+header {
+    max-width: 1440px;
+    height: 79px;
+    display: flex;
+    justify-content: space-between;
+}
+
 .main-container {
     width: 100%;
     max-width: 1440px;
@@ -56,6 +63,36 @@ a {
 
 .neutral-star {
     color: var(--main-bg-color)
+}
+
+/****** Header ***********/
+
+.header-logo {
+    padding: 30px 50px 30px 50px;
+}
+
+.logo {
+    width: 61.09px;
+    height: 19px;
+}
+
+.header-links {
+    width: 344px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 68px;
+}
+
+.header-links div {
+    border-top: solid #0065FC;
+    width: 113px;
+    height: 35px;
+    text-align: center;
+}
+.header-link {
+    margin-top: 16px;
+    height: 19px;
+    max-width: 112px;
 }
 
 /****** Hebergements And Populaires ***********/
